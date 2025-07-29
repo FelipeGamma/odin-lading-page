@@ -32,9 +32,15 @@ body{
 }
 .banner-text{
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;   
     width: 450px;
-
+    margin-bottom: 50px;
+}
+.banner-text p{
+    margin: 0
+}
+.banner-text h1{
+    margin: 0;
 }
 .button-hero{
     background-color: #3882F6;
@@ -42,7 +48,8 @@ body{
     font-weight: 900;
     width: 70px;
     padding: 8px 30px 8px;
-    border-radius: 8px;
+    border-radius: 8px; 
+    margin-top: 10px;
 }
 .image-box{
     background-color: rgba(128, 128, 128, 0.555);
@@ -141,7 +148,7 @@ h2{
 footer{
     color: #F9FAF8 ;
     min-height: min-content;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     margin: 0;
     padding: 40px 0;
